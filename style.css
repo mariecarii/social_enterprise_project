@@ -349,6 +349,7 @@ footer ul a:hover {
         align-items: flex-start;
         justify-content: center;
         gap:0;
+        display: none;
     }
 
     .nav__items li {
@@ -382,6 +383,6 @@ footer ul a:hover {
     .nav__profile .avatar {
         margin-left: 2rem;
         border: 0;
-        
+
     }
 }
