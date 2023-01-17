@@ -455,6 +455,10 @@ footer ul a:hover {
     .footer__container {
         grid-template-columns: 1fr 1fr ;
     }
+
+    .search__bar-container {
+        width: 60%;
+    }
 }
 
 /* media queries (phones, small devices) */
@@ -485,5 +489,9 @@ footer ul a:hover {
     gap: 2rem;
 
    }
+   /* blog */
+   .search__bar-container {
+    width:  var(--container-width-md);
+}
 }
 
