@@ -371,6 +371,16 @@ footer ul a:hover {
     line-height: 1.7;
 }
 
+/* category  */
+.category__title {
+    height: 15rem;
+    margin-top: 4.5rem;
+    background-color: var(--color-gray-900);
+    display: grid;
+    place-items: center;
+}
+
+
 /* media queries (tablets, medium devices) */
 @media screen and (max-width: 1024px) {
     .container {
@@ -473,10 +483,12 @@ footer ul a:hover {
     .footer__container {
         grid-template-columns: 1fr 1fr ;
     }
-
+/* blog */
     .search__bar-container {
         width: 60%;
     }
+
+
 }
 
 /* media queries (phones, small devices) */
@@ -511,5 +523,10 @@ footer ul a:hover {
    .search__bar-container {
     width:  var(--container-width-md);
 }
+/* single post */
+.singlepost__container {
+    background-color: transparent;
+    padding: 0;
+    }
 }
 
