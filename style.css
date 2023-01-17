@@ -340,6 +340,19 @@ footer ul a:hover {
     padding: 0.5rem 0;
     width: 100%;
 }
+
+/* button  */
+.btn {
+    display: inline-block;
+    width: fit-content;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--color-primary);
+    border-radius: var(--card-border-radius-2);
+    cursor: pointer;
+    transition: var(--transition);
+    color: white;
+}
+
 /* media queries (tablets, medium devices) */
 @media screen and (max-width: 1024px) {
     .container {
