@@ -146,6 +146,14 @@ nav button {
     display: flex;
     flex-direction: column;
     box-shadow: 0 3rem 3rem rgba(0,0,0,0.4);
+    visibility: hidden;
+    opacity: 0;
+    transition: var(--transition);
+}
+/* this will show nav ul when hovering over .nav__profile */
+.nav__profile:hover > ul {
+    visibility: visible;
+    opacity: 1;
 }
 
 .nav__profile ul li a {
