@@ -359,6 +359,19 @@ footer ul a:hover {
         align-items: center;
         box-shadow: -2rem 3rem 7rem rgba(0,0,0,0.7);
         border-top: 1px solid var(--color-bg);
+        animation: animateDropdown 1s 0s ease forwards;
+        opacity: 0;
+        transform-origin: top;
+    }
+   
+    @keyframes animateDropdown {
+        0% {
+            transform: rotateX(90deg);
+        }
+        100% {
+            transform: rotateX(0deg);
+            opacity: 1;
+        }
     }
 
     .nav__items li a {
@@ -370,6 +383,7 @@ footer ul a:hover {
         display: flex;
         align-items: center;
     }
+
 
     .nav__profile {
         background: var(--color-gray-900);
