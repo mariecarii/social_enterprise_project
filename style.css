@@ -460,6 +460,11 @@ input, textarea, select {
 .dashboard {
     margin-top: 6rem;
 }
+
+.sidebar__toggle {
+    display: none ;
+}
+
 .dashboard__container {
     display: grid;
     grid-template-columns: 14rem auto;
@@ -629,6 +634,29 @@ input, textarea, select {
         padding: 3rem;
     }
 
+    /* dashbaord */
+    .dashboard__container {
+        grid-template-columns: 4.3rem auto;
+        padding: 0;
+        background: transparent;
+    }
+
+    .dashboard aside h5 {
+        display: none;
+    }
+    .dashboard main table thead {
+        display: none;
+    }
+    .dashboard main table tr {
+        display: flex;
+        flex-direction: column;
+    }
+    .dashboard main table tr:nth-child(even) {
+        background: var(--color-primary-variant);
+    }
+    .dashbaord main table tr:hover td {
+        background: transparent;
+    }
 }
 
 /* media queries (phones, small devices) */
@@ -671,6 +699,52 @@ input, textarea, select {
     /* form */
     .form__section-container {
         padding: 0;
+    }
+    /* dashboard */
+
+    .dashboard {
+        margin-top: 5rem;
+    }
+    .dashboard__container {
+        grid-template-columns: 1fr ;
+        gap: 0;
+    }
+    .dashboard main {
+        margin: 0;
+    }
+
+    .dashboard main h2 {
+        margin-top: 1rem;
+    }
+    .dashboard aside {
+        position: fixed;
+        box-shadow: 2rem 0 4rem rgba(0, 0, 0, 0.4);
+        left: 0;
+        height: 100vh;
+        transition: var(--transition);
+        background: var(--color-primary);
+    }
+    .dashboard .sidebar__toggle {
+        display: inline-block;
+        background: var(--color-primary-variant);
+        color: white;
+        position: fixed;
+        right: 0;
+        bottom: 4rem;
+        z-index: 1;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius:50% 0 0 50%;
+        font-size: 1.3rem;
+        cursor: pointer;
+        box-shadow: -1rem 0 2rem rgba(0, 0, 0, 0.4);
+    }
+    .dashboard aside a h5 {
+        display: inline-block;
+    }
+
+    #hide__sidebar-btn {
+        display: none;
     }
 }
 
