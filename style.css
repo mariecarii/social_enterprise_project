@@ -354,6 +354,19 @@ footer ul a:hover {
     color: white;
 }
 
+.btn.sm {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.8rem;
+}
+
+.btn.danger {
+    background: red;
+}
+
+.btn:hover {
+    background: white;
+    color: var(--color-bg);
+}
 /* single .post */
 .singlepost {
     margin: 6rem 0 2rem;
@@ -442,6 +455,9 @@ input, textarea, select {
 .form__section small {
    color: var(--color-primary);
 }
+
+/* dashboard */
+
 
 /* media queries (tablets, medium devices) */
 @media screen and (max-width: 1024px) {
