@@ -483,6 +483,41 @@ input, textarea, select {
 .dashboard aside a:hover {
     background: var(--color-primary-light);
 }
+
+.dashboard aside a.active {
+    background-color: var(--color-gray-900);
+}
+
+.dashboard main {
+    margin-left: 1.5rem;
+}
+
+.dashboard main h2 {
+    margin: 0 0 2rem 0;
+    line-height: 1;
+}
+
+.dashboard main table {
+    width: 100%;
+    text-align: left;
+}
+
+.dashboard main table th {
+    background-color: var(--color-primary-light);
+    padding: 0.8rem;
+    color: white;
+}
+.dashboard main table td {
+    padding: 0.8rem;
+    border-bottom: 1px solid rgb(37, 47, 31);
+}
+
+.dashboard main table tr:hover td {
+    background-color: var(--color-bg);
+    color: white;
+    cursor: default;
+    transition: var(--transition);
+}
 /* media queries (tablets, medium devices) */
 @media screen and (max-width: 1024px) {
     .container {
