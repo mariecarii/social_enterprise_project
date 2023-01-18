@@ -424,7 +424,7 @@ footer ul a:hover {
     color: red;
 }
 .alert__message.success {
-    background: var(--color-green-light);
+    background-color: var(--color-primary-variant);
     color: var(--color-green);
 }
 
