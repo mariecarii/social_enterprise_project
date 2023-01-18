@@ -380,6 +380,13 @@ footer ul a:hover {
     place-items: center;
 }
 
+/* empty pages  */
+
+.empty__page {
+    height: 70vh;
+    display: grid;
+    place-content: center;
+}
 
 /* media queries (tablets, medium devices) */
 @media screen and (max-width: 1024px) {
