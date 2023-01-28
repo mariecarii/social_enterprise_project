@@ -16,3 +16,6 @@ This website was designed to be used for our social enterprise to connect users 
 
 ## Future Plans
 I'd like to add more interactive features to the website. I also want to work on adding a backend so registered users, articles, etc. can be stored. 
+
+## Credits 
+EGATOR, YouTube 
