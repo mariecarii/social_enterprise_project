@@ -1,6 +1,6 @@
 # social_enterprise_project
 <p>
-<img src="/Users/marieyearup/social_enterprise/social_enterprise_project2/social_enterprise_project_ss.png" alt="website screenshot"/>
+<img src="social_enterprise_project_ss.png" alt="website screenshot"/>
 </p>
 
 ## Project Description
