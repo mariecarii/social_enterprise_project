@@ -1,4 +1,7 @@
 # social_enterprise_project
+<p>
+<img src="/Users/marieyearup/social_enterprise/social_enterprise_project2/social_enterprise_project_ss.png" alt="website screenshot"/>
+</p>
 
 ## Project Description
 We were prompted to create a social enterprise for our class. My group chose to address the issue of food deserts. The idea was we would create a platform that connects people directly to farmers to eliminate middle man costs and making it an easier proccess overall. <br />
