@@ -1,7 +1,7 @@
 # social_enterprise_project
 
 ## Project Description
-We were prompted to create a social enterprise for our class. My group chose to address the issue of food deserts. The idea was we would create a platform that connects people directly to farmers to eliminate middle man costs and making it an easier proccess overall.
+We were prompted to create a social enterprise for our class. My group chose to address the issue of food deserts. The idea was we would create a platform that connects people directly to farmers to eliminate middle man costs and making it an easier proccess overall. <br />
 Our website allows farmers to sign on, and in blog style, post produce they have for sale and any other info. We also have seperate sections of the site dedictaed to money saving tips and how to get the max out of groceries. 
 
 
